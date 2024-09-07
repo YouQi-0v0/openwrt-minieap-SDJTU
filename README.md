@@ -1,3 +1,9 @@
+修改服务名为`访问互联网` 
+
+以下修改自原仓库 README 内容：
+
+---
+
 openwrt-minieap-gdufs
 =====
 
@@ -33,7 +39,7 @@ First download [OpenWrt SDK](https://downloads.openwrt.org/) for your device.
 
 ```sh
 cd /path/to/your/sdk
-git clone https://github.com/jimlee2002/openwrt-minieap-gdufs.git package/minieap
+git clone https://github.com/YouQi-0v0/openwrt-minieap-sdjtu.git package/minieap
 make menuconfig # choose `minieap` in section `Network`
 make package/minieap/compile V=s
 ```
